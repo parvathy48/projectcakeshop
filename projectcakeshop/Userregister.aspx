@@ -99,31 +99,8 @@
             <td class="auto-style2">
                 <asp:DropDownList ID="DropDownList1" runat="server" Height="20px" Width="135px">
                     <asp:ListItem>Select</asp:ListItem>
-                    <asp:ListItem>Andra Pradesh</asp:ListItem>
-                    <asp:ListItem>Assam</asp:ListItem>
-                    <asp:ListItem>Bihar</asp:ListItem>
-                    <asp:ListItem>Chattisgraph</asp:ListItem>
-                    <asp:ListItem>Goa</asp:ListItem>
-                    <asp:ListItem>Gujarat</asp:ListItem>
-                    <asp:ListItem>Haryana</asp:ListItem>
-                    <asp:ListItem>Himachal Pradesh</asp:ListItem>
-                    <asp:ListItem>Jharkhand</asp:ListItem>
-                    <asp:ListItem>Karnataka</asp:ListItem>
                     <asp:ListItem>Kerala</asp:ListItem>
-                    <asp:ListItem>Madhya Pradesh</asp:ListItem>
-                    <asp:ListItem>Manipur</asp:ListItem>
-                    <asp:ListItem>Meghalaya</asp:ListItem>
-                    <asp:ListItem>Mizoram</asp:ListItem>
-                    <asp:ListItem>Nagaland</asp:ListItem>
-                    <asp:ListItem>Odisha</asp:ListItem>
-                    <asp:ListItem>Punjab</asp:ListItem>
-                    <asp:ListItem>Sikkim</asp:ListItem>
                     <asp:ListItem>Tamil Nadu</asp:ListItem>
-                    <asp:ListItem>Telegana</asp:ListItem>
-                    <asp:ListItem>Tripura</asp:ListItem>
-                    <asp:ListItem>Uttarakhand</asp:ListItem>
-                    <asp:ListItem>Uttar Pradesh</asp:ListItem>
-                    <asp:ListItem>West Bengal</asp:ListItem>
                 </asp:DropDownList>
             </td>
             <td class="auto-style2">
@@ -231,7 +208,7 @@
             <td class="auto-style1">
                 <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
             </td>
-            <td class="auto-style1"></td>
+            <td class="auto-style1">&nbsp;</td>
             <td class="auto-style1"></td>
             <td class="auto-style1"></td>
             <td class="auto-style1"></td>

@@ -80,6 +80,7 @@
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="Login.aspx" class="nav-item nav-link">LOGIN</a>
+                <a href="Userregister.aspx" class="nav-item nav-link">Create account</a>
                 <a href="menu.html" class="nav-item nav-link">Menu & Pricing</a>
                 <a href="team.html" class="nav-item nav-link">Master Chefs</a>
                 <div class="nav-item dropdown">

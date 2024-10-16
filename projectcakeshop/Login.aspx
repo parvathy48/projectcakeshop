@@ -63,7 +63,7 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="Button1" runat="server" Font-Bold="True" OnClick="Button1_Click" Text="LOGIN" Width="124px" />
+                <asp:Button ID="Button1" runat="server" Font-Bold="True" OnClick="Button1_Click" Text="LOGIN" Width="124px" BackColor="#0066FF" BorderStyle="Solid" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

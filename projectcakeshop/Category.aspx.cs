@@ -55,9 +55,9 @@ namespace projectcakeshop
 
         protected void GridView1_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
         {
-           
+
         }
-     
+
 
         protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
         {
@@ -73,18 +73,7 @@ namespace projectcakeshop
 
         protected void GridView1_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
-
-            //int i = e.RowIndex;
-            //string Cat_Id = GridView1.DataKeys[i].Value.ToString();
-            //int Category_Id = Convert.ToInt32(Cat_Id);
-            //GridViewRow row = GridView1.Rows[e.RowIndex];
-            //TextBox txtname = (TextBox)row.FindControl("Textbox4");
-            //string tca = txtname.Text;
-            //FileUpload f1 = (FileUpload)GridView1.Rows[e.RowIndex].FindControl("Fileupload2");
-            //TextBox txtdesc = (TextBox)row.FindControl("Textbox3");
-            //string tc = txtdesc.Text;
-            //TextBox txtstatus = (TextBox)row.FindControl("Textbox5");
-            //string ts = txtstatus.Text;
+    
 
             int i = e.RowIndex;
             int getid = Convert.ToInt32(GridView1.DataKeys[i].Value);

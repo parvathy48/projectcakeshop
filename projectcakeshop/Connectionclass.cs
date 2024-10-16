@@ -27,6 +27,20 @@ namespace projectcakeshop
             con.Close();
             return i;
         }
+
+        public void Fn_Nonquery_sp(SqlCommand cmd)
+        {
+            if (con.State == ConnectionState.Open)
+            {
+                con.Close();
+            }
+            cmd.Connection = con;
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+           
+        }
+
         public string Fn_Scalar(string sqlquery)
         {
             if (con.State == ConnectionState.Open)

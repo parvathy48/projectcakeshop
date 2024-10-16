@@ -90,7 +90,7 @@ namespace projectcakeshop
                     qty = Convert.ToInt32(dr1["Quantity"]);
                     tp = Convert.ToDecimal(dr1["Total_Price"]);
                 }
-                string ins = "insert into order_tab values(" + pid + "," + Session["uid"] + "," + qty + "," + tp + ",'" + DateTime.Now.ToString("yyyy-MM-dd") + "')";
+                string ins = "insert into order_tab values(" + pid + "," + Session["uid"] + "," + qty + "," + tp + ",'" + DateTime.Now.ToString("yyyy-MM-dd") + "','Ordered')";
                 int k = obj.Fn_Nonquery(ins);
                 string del = "delete from cart_tab where Product_id=" + pid + " and user_id=" + Session["uid"] + "";
                 int d = obj.Fn_Nonquery(del);
